@@ -8,11 +8,7 @@
     "lint:scripts": "eslint src",
     "build": "cross-env NODE_ENV=production webpack --config webpack/webpack.config.prod.js",
     "start": "webpack serve --config webpack/webpack.config.dev.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wbkd/webpack-starter.git"
-  },
+  }, 
   "keywords": [
     "webpack",
     "startkit",
@@ -21,11 +17,8 @@
     "javascript",
     "webdev"
   ],
-  "author": "webkid.io",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/wbkd/webpack-starter/issues"
-  },
+  "author": "",
+  "license": "MIT",  
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@babel/plugin-proposal-class-properties": "^7.12.1",
